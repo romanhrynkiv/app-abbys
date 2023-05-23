@@ -1,0 +1,40 @@
+.category {
+  position: relative;
+}
+
+.popup-menu {
+  position: absolute;
+  z-index: 2;
+  width: 300px;
+  height: 150px;
+  top: 40px;
+  left: 115px;
+  background: white;
+  color: grey;
+}
+
+.popup-menu .popup-content {
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.popup-menu .popup-content .title {
+  color: black;
+}
+
+.popup-menu .popup-content .actions {
+  display: flex;
+  flex-direction: row;
+}
+
+.popup-btn {
+  border: none;
+  margin: 0 5px;
+  padding: 10px;
+  cursor: pointer;
+  color: grey;
+}

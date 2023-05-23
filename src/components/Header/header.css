@@ -1,0 +1,95 @@
+.header {
+  display: flex;
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.header__title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-left: 3vw;
+}
+
+.header__title::after {
+  content: "0";
+  color: #ffffff;
+  font-size: 1.4rem;
+  background-color: #ffbb2e;
+  border-radius: 40%;
+  margin-left: 0.3vw;
+  display: inline-block;
+  text-align: center;
+  width: 1.6vw;
+}
+.header__right {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 3vw;
+  width: 18vw;
+}
+
+.listView {
+  font-size: 0.7rem;
+  background-color: #6c77e4;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 5.4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltip {
+  display: inline-block;
+  background-color: #c2c2c5;
+  color: #ffffff;
+  position: absolute;
+  padding: 0.5%;
+  top: 7rem;
+  font-size: 0.8rem;
+}
+
+.btnZoomWrap {
+  display: flex;
+  justify-content: space-between;
+  width: 9vw;
+  margin-left: 0.5vw;
+}
+.selectList {
+  appearance: none;
+  cursor: pointer;
+  border: none;
+  width: 4vw;
+  text-align: center;
+  color: #c2c2c5;
+  font-size: 0.7rem;
+}
+.arrowImg {
+  width: 1vw;
+  color: #c2c2c5;
+  cursor: pointer;
+}
+.centerBtn {
+  width: 2.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #ffffff;
+  color: #c2c2c5;
+}
+
+.btnZoom {
+  cursor: pointer;
+  color: #c2c2c5;
+  background-color: #ffffff;
+  border: none;
+  width: 2.2vw;
+  font-size: 2rem;
+  text-align: center;
+}

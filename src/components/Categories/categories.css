@@ -1,0 +1,107 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.tree ul {
+  padding-top: 20px;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.tree li {
+  float: left;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  padding: 20px 5px 0 5px;
+  transition: all 0.5s;
+  margin-left: -40px;
+}
+
+.tree li::before,
+.tree li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 50%;
+  border-top: 1px solid #ccc;
+  width: 50%;
+  height: 20px;
+}
+
+.tree li::after {
+  right: auto;
+  left: 50%;
+  border-left: 1px solid #ccc;
+}
+
+.tree li:only-child::after,
+.tree li:only-child::before {
+  display: none;
+}
+
+.tree li:only-child {
+  padding-top: 0;
+}
+
+.tree li:first-child::before,
+.tree li:last-child::after {
+  border: 0 none;
+}
+
+.tree li:last-child::before {
+  border-right: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.tree li:first-child::after {
+  border-radius: 0;
+}
+
+.tree ul ul::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-left: 1px solid #ccc;
+  width: 0;
+  height: 20px;
+}
+
+.tree li .category {
+  border: 1px solid transparent;
+  margin: 0 4.5rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: white;
+  font-family: arial, verdana, tahoma;
+  font-size: 11px;
+  display: inline-block;
+  border-radius: 0;
+  transition: all 0.5s;
+  background: rgb(232, 130, 97);
+  position: relative;
+  width: 75px;
+  height: 16px;
+}
+
+.button-container {
+  position: absolute;
+  right: -100px;
+  top: 3px;
+  display: flex;
+  flex-direction: row;
+  width: 95px;
+}
+
+input {
+  width: 102px;
+  margin-left: -18px;
+  height: 28px;
+  margin-top: -9px;
+}

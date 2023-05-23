@@ -1,0 +1,24 @@
+.category-button {
+  margin: 0 0.25rem;
+  border-radius: 50%;
+  padding: .125rem;
+  background: lightgray;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.success {
+  background: green;
+}
+
+.warn {
+  background: darkorange;
+}
+
+.error {
+  background: red;
+}

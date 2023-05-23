@@ -1,0 +1,52 @@
+.arrow__btn {
+  width: 7vw;
+  border: none;
+  background-color: #c8d0d9;
+  height: 5vh;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 2px;
+  z-index: 1;
+}
+.arrow_btn__up {
+  position: fixed;
+  top: 0;
+  left: 5%;
+  transform: translateX(-50%);
+}
+.arrow_btn__down {
+  position: fixed;
+  bottom: 0;
+  left: 5%;
+  transform: translateX(-50%);
+}
+.arrow_btn__left {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translate(-32%, -50%) rotate(-90deg);
+}
+.arrow_btn__right {
+  position: fixed;
+  top: 50%;
+  left: 92vw;
+  transform: translate(32%, -50%) rotate(90deg);
+}
+i {
+  border: solid #ffffff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.arrow_left {
+  transform: rotate(-135deg);
+}
+.arrow_right {
+  transform: rotate(-135deg);
+}
+.arrow_down {
+  transform: rotate(45deg);
+}
+.arrow_up {
+  transform: rotate(-135deg);
+}
